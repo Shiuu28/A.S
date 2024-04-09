@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" style="display: flex; justify-content: center; align-items: center;">
+
+<head>
+    <link href="style/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/thinking.png">
+    <link href="style/stylesvent.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25eed41d7b.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js"></script>
+</head>
+
+<body style="display: flex; justify-content: center; align-items: center; align-content: center; margin: auto;">
+
+    <div style="margin: auto;">
+
+        <div class="navigation">
+            <ul>
+                <li class="list active" style="--clr:#f44336"><a href="index.html">
+                        <span class="icon" class="indicator"><i class="fa-solid fa-house"
+                                style="color: #ffffff;"></i></span></a>
+                </li>
+                <li class="list active" style="--clr:#f44336"><a href="tecnico.html" id="select">
+                        <span class="icon" class="indicator"><img src="img/sirs.png" width="40px"></span></a>
+                </li>
+                <li class="list active" style="--clr:#f44336"><a href="productivo.html">
+                        <span class="icon" class="indicator"><img src="img/logo.png" width="40px"></span></a>
+                </li>
+                <li class="list active" style="--clr:#f44336"><a href="https://sirs3.infinityfreeapp.com">
+                        <span class="icon" class="indicator"><i class="fa-solid fa-passport"
+                                style="color: #ffffff;"></i></span></a>
+                </li>
+
+                <div class="indicator"></div>
+            </ul>
+        </div>
+
+
+        <!--items-->
+
+        <div class="card1">
+            <a onclick="abrirVentana1()"><img src="img/PRODUCTIVO/arboles.jfif" width="154px" height="221px"></a>
+            <div id="ventana1" class="ventana-flotante">
+                <div class="contenido">
+                    <button onclick="cerrarVentana1()">X</button>
+                    <div class="galeria">
+                        <img src="Evidencias/objetivos.png" alt="" width="30px" height="350 px">
+                        <img src="Evidencias/ap.jfif" alt="">
+                        <img src="Evidencias/ao.jfif" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card1">
+            <a onclick="abrirVentana2()"><img src="img/TÉCNICO/ieee.jfif" width="154px" height="221px"></a>
+            <div id="ventana2" class="ventana-flotante">
+                <button onclick="cerrarVentana2()">X</button>
+                <object class="pdfview" type="application/pdf" data="Evidencias/SIRS.pdf" width="95%"
+                    height="98%"></object>
+            </div>
+        </div>
+
+
+        <div class="card1">
+            <a onclick="abrirVentana3()"><img src="img/TÉCNICO/bpmn.jpeg" width="154px" height="221px"></a>
+            <div id="ventana3" class="ventana-flotante">
+                <div class="contenido">
+                    <img src="Evidencias/bpm1.png" width="770px" height="500px">
+                    <button onclick="cerrarVentana3()">X</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card1">
+            <a onclick="abrirVentana4()"><img src="img/TÉCNICO/casos_uso.jfif" width="154px" height="221px"></a>
+            <div id="ventana4" class="ventana-flotante">
+                <div class="contenido">
+                    <button onclick="cerrarVentana4()">X</button>
+                    <object class="pdfview" type="application/pdf" data="Evidencias/Casos de Uso.pptx.pdf" width="95%"
+                        height="98%"></object>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card1">
+            <a onclick="abrirVentana5()"><img src="img/TÉCNICO/clases_objetos.jfif" width="154px" height="221px"></a>
+            <div id="ventana5" class="ventana-flotante">
+                <div class="contenido">
+                    <button onclick="cerrarVentana5()">X</button>
+                    <object class="pdfview" type="application/pdf" data="Evidencias/Modelo de Clases.pptx.pdf"
+                        width="95%" height="98%"></object>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="card1">
+            <a onclick="abrirVentana6()"><img src="img/TÉCNICO/BD.jfif" width="154px" height="221px"></a>
+            <div id="ventana6" class="ventana-flotante">
+                <div class="contenido">
+                    <button onclick="cerrarVentana6()">X</button>
+                    <object class="pdfview" type="application/pdf" data="Evidencias/bd(sirs).pdf" width="95%"
+                        height="98%"></object>
+                </div>
+            </div>
+        </div>
+
+        <div class="card1">
+            <a onclick="abrirVentana7()"><img src="img/TÉCNICO/ddl_dml.jfif" width="154px" height="221px"></a>
+            <div id="ventana7" class="ventana-flotante">
+                <div class="contenido">
+                    <button onclick="cerrarVentana7()">X</button>
+                    <object class="pdfview" type="application/pdf" data="Evidencias/crud.pdf" width="95%"
+                        height="98%"></object>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--segunda ilera-->
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="card1">
+            <a onclick="abrirVentana8()"><img src="img/TÉCNICO/CRUD.jfif" width="154px" height="221px"></a>
+            <div id="ventana8" class="ventana-flotante">
+                <div class="contenido">
+                    <button onclick="cerrarVentana8()">X</button>
+                    <object class="pdfview" type="application/pdf" data="Evidencias/crud.pdf" width="95%"
+                        height="98%"></object>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card1">
+            <a onclick="abrirVentana9()"><img src="img/TÉCNICO/DD.jfif" width="154px" height="221px"></a>
+            <div id="ventana9" class="ventana-flotante">
+                <div class="contenido">
+                    <button onclick="cerrarVentana9()">X</button>
+                    <object class="pdfview" type="application/pdf" data="Evidencias/D.D. (SIRS).pdf" width="95%"
+                        height="98%"></object>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card1">
+            <a onclick="abrirVentana10()"><img src="img/TÉCNICO/normalizacion.jfif" width="154px" height="221px"></a>
+            <div id="ventana10" class="ventana-flotante">
+                <div class="contenido">
+                    <button onclick="cerrarVentana10()">X</button>
+                    <object class="pdfview" type="application/pdf" data="Evidencias/NORMALIZACIÓN.pdf" width="95%"
+                        height="98%"></object>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="card1">
+            <a onclick="abrirVentana11()"><img src="img/TÉCNICO/procedimientos.jfif" width="154px" height="221px"></a>
+            <div id="ventana11" class="ventana-flotante">
+                <div class="contenido">
+                    <button onclick="cerrarVentana11()">X</button>
+                    <object class="pdfview" type="application/pdf" data="Evidencias/procedimientos almacenados.pdf"
+                        width="95%" height="98%"></object>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card1">
+            <a onclick="abrirVentana12()"><img src="img/TÉCNICO/mer.jfif" width="154px" height="221px"></a>
+            <div id="ventana12" class="ventana-flotante">
+                <div class="contenido">
+                    <button onclick="cerrarVentana12()">X</button>
+                    <object class="pdfview" type="application/pdf" data="Evidencias/MER SIRS.pdf" width="95%"
+                        height="98%"></object>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card1">
+            <a onclick="abrirVentana13()"><img src="img/TÉCNICO/mr.jfif" width="154px" height="221px"></a>
+            <div id="ventana13" class="ventana-flotante">
+                <div class="contenido">
+                    <a><img src="Evidencias/mr.jfif" width="850px" height="515px"></a>
+                    <button onclick="cerrarVentana13()">X</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="card1">
+            <a onclick="abrirVentana14()"><img src="img/TÉCNICO/dominio.jpg" width="154px" height="221px"></a>
+            <div id="ventana14" class="ventana-flotante">
+                <div class="contenido">
+                    <button onclick="cerrarVentana14()">X</button>
+                    <object class="pdfview" type="application/pdf" data="Evidencias/HOSTING Y DOMINIO.pptx.pdf"
+                        width="95%" height="98%"></object>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
