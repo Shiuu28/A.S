@@ -9,7 +9,6 @@ body {
     min-height: 100vh;
     background-size: cover;
     padding: 3% 0;
-    background-image: ;
 }
 
 html {
@@ -32,7 +31,6 @@ html {
     float: left;
     margin: 50px;
     align-items: center;
-    align-content: center;
 }
 
 .card1::before {
@@ -247,8 +245,8 @@ button span:hover {
 }
 
 p {
-    color:#740364;
-    font-family: vivaldi; 
+    color: #740364;
+    font-family: vivaldi;
     font-size: 755%;
     position: relative;
     justify-content: center;
@@ -256,21 +254,18 @@ p {
 }
 
 
+
 /*CARDS PERFIL*/
 .card {
     width: 280px;
     height: 280px;
-    background: white;
     border-radius: 32px;
     padding: 3px;
-    position: relative;
-    display: flex;
-    justify-content: end;
-    float: left;
-    flex-direction: column;
+    display: grid;
+    justify-content:center;
+    align-items: center;
     box-shadow: #604b4a30 0px 70px 30px -50px;
     transition: all 0.5s ease-in-out;
-    margin-left: 20vh;
 }
 
 .card .mail {
@@ -329,7 +324,8 @@ p {
     bottom: 3px;
     left: 3px;
     right: 3px;
-    background: linear-gradient(40deg, #000000, #3a0132f6);;
+    background: linear-gradient(40deg, #000000, #3a0132f6);
+    ;
     top: 80%;
     border-radius: 29px;
     z-index: 2;
