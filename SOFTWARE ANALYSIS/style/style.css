@@ -16,6 +16,7 @@ html {
     padding: 3% 0;
 }
 
+/*CARDS ITEMS*/
 .card1 {
     position: relative;
     width: 153px;
@@ -30,6 +31,8 @@ html {
     cursor: pointer;
     float: left;
     margin: 50px;
+    align-items: center;
+    align-content: center;
 }
 
 .card1::before {
@@ -253,7 +256,7 @@ p {
 }
 
 
-
+/*CARDS PERFIL*/
 .card {
     width: 280px;
     height: 280px;
@@ -268,7 +271,6 @@ p {
     box-shadow: #604b4a30 0px 70px 30px -50px;
     transition: all 0.5s ease-in-out;
     margin-left: 20vh;
-
 }
 
 .card .mail {
